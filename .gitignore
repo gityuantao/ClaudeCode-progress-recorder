@@ -1,0 +1,59 @@
+# Progress Recorder .gitignore
+
+# 操作系统生成的文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 编辑器和IDE生成的文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.backup
+
+# Progress Recorder 特定文件
+progress.md.backup
+*.archive.backup
+
+# 用户可能不想提交的文件
+# 注意：progress.md 通常应该被提交，但如果包含敏感信息可以取消注释下面一行
+# progress.md
+
+# 如果使用了加密的进度文件，忽略明文版本
+progress.decrypted.md
+*.secret.md
+
+# 测试和临时文件
+test-progress.md
+temp-*.md
+
+# Node.js (如果项目中包含Node.js工具)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python (如果项目中包含Python工具)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+
+# 其他常见忽略
+*.zip
+*.tar.gz
+*.rar
